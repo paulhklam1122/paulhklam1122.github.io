@@ -1,0 +1,277 @@
+#custom-nav {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+    min-height: 50px;
+}
+
+#custom-nav .dropdown {
+    border-radius: 0;
+    border: none;
+    border-top: 5px solid transparent;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 0;
+}
+
+#custom-nav .container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: padding-top .5s ease, padding-bottom .5s ease;
+    -moz-transition: padding-top .5s ease, padding-bottom .5s ease;
+    transition: padding-top .5s ease, padding-top .5s ease, padding-bottom .5s ease;
+}
+
+#custom-nav.affix {
+    top: 0;
+    min-width: 100%;
+    opacity: 1;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+    z-index: 1;
+    background-color: maroon;
+    border-color: maroon;
+    background-image: -webkit-gradient(linear, left 0%, left 100%, from(maroon), to(maroon));
+    background-image: -webkit-linear-gradient(top, maroon, 0%, maroon, 100%);
+    background-image: -moz-linear-gradient(top, maroon 0%, maroon 100%);
+    background-image: linear-gradient(to bottom, maroon 0%, maroon 100%);
+    background-repeat: repeat-x;
+}
+
+.navbar-brand.topnav {
+  color: white;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 30px;
+}
+
+.navbar-default .navbar-nav>.active>a {
+  background-color: #334D5C;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: white;
+}
+
+#title {
+  color: #FBFBFB;
+  text-shadow: 0px 0px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 6.25em;
+}
+
+.titleDescription {
+  color: #FBFBFB;
+  text-shadow: 0px 0px;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+.caption {
+    position:absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    display: none;
+    text-align: center;
+    color: #FFFFFF !important;
+    z-index:2;
+}
+
+div.caption i {
+  margin-top: 125px;
+  font-size: 75px;
+  text-transform: none;
+  color: white;
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.caption a i:hover {
+  color: maroon;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+    padding: 0px;
+    border-radius: 0px;
+    border: 5px solid white;
+}
+
+#aboutImage {
+  width: 300px;
+  margin-bottom: 25px;
+}
+
+#aboutText {
+  margin-top: 50px;
+}
+
+#about {
+  background-color: #242523;
+  color: white;
+}
+
+#about a:hover {
+  text-decoration: underline;
+  color:white;
+}
+
+#frontEndTechnologiesTitle, #serverSideTechnologiesTitle, #toolsTitle, #cloudTitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-right: 50px;
+}
+
+#frontEndTechnologiesList td, #serverSideTechnologiesList td, #toolsList td, #cloudTitle td {
+  padding-bottom: 50px;
+}
+
+#frontEndTechnologiesList td img, #serverSideTechnologiesList td img, #toolsList td img, #cloudList td img {
+  width: 100px;
+  padding: 20px;
+  margin-left: 15px;
+}
+
+.img-responsive {
+  height: 250px
+}
+
+.popover-content {
+  letter-spacing: 2px;
+}
+
+.popover {
+  box-shadow: none;
+  border: 0px;
+  background-color: #334D5C;
+  color: #FFFFFF;
+}
+
+.popover.bottom .arrow:after, .popover.bottom .arrow {
+  border-bottom-color: #334D5C;
+}
+
+.popover.top .arrow:after, .popover.top .arrow {
+  border-top-color: #334D5C;
+}
+
+.popover.left .arrow:after, .popover.left .arrow {
+  border-left-color: #334D5C;
+}
+
+.popover.right .arrow:after, .popover.right .arrow {
+  border-right-color: #334D5C;
+}
+
+.btn-primary {
+  background-color: maroon;
+  border: maroon 1px;
+}
+.btn-primary:hover {
+  background-color: #3D1308;
+}
+
+#intro-area {
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.70);
+  margin: 0px 220px 0px 220px;
+  padding: 5px 0px 20px 0px;
+}
+
+#contact-area {
+  border: 1px white solid;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.70);
+  padding: 20px 30px 75px 30px;
+}
+
+#thank-you {
+  margin-top: 100px;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  padding: 50px 30px 50px 30px;
+  border: 1px white solid;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.70);
+}
+
+
+.bg {
+  background: url(../img/startup.png) no-repeat center;
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+  background-position: top;
+  vertical-align: bottom;
+}
+
+p {
+  font-size: 17px;
+}
+
+.list-inline li a {
+  min-width: 150px;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr { border: 1px solid #ccc; }
+
+	td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+  }
+}
